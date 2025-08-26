@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(){
+  char estado [];
+  char carta [];
+  int populacao;
+  float area;
+  float PIB;
+  int pontos turisticos;
+
+}
