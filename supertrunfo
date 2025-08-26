@@ -1,11 +1,43 @@
 #include <stdio.h>
 
 int main(){
-  char estado [];
-  char carta [];
+  char estado [10];
+  char carta [3];
+  char cidade[10];
   int populacao;
   float area;
   float PIB;
-  int pontos turisticos;
+  int pontos;
 
+  printf("Digite o Estado: \n");
+  scanf("%s", &estado);
+
+  printf("Digite o código da carta: \n");
+  scanf("%s", &carta);
+
+  printf("Digite o nome da Cidade: \n");
+  scanf("%s", &cidade);
+
+  printf("Digite a população: \n");
+  scanf("%d", &populacao);
+
+  printf("Digite a área da cidade: \n");
+  scanf("%d km²", &area);
+
+  printf("Digite o PIB da cidade: \n");
+  scanf("%d", &PIB);
+
+  printf("Digite o número de pontos turísticos: \n);
+  scanf("%d", &pontos);
+
+  printf("Nome do estado: %s\n", estado);
+  printf("Código da carta: %s\n", carta);
+  printf("Nome da cidade: %s\n", cidade);
+  printf("População: %d\n", populacao);
+  printf("Área: %d\n", area);
+  printf("PIB: %d\n", PIB);
+  printf("Número de pontos turísticos: %d\n", pontos);
+
+  return 0
+  
 }
